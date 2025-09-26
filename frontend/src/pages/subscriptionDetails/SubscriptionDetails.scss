@@ -1,0 +1,65 @@
+.subscription-card {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 2rem;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  animation: fadeIn 0.5s ease;
+
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+    color: #444;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    span:first-child {
+      font-weight: 500;
+      color: #666;
+    }
+
+    span:last-child {
+      color: #222;
+    }
+  }
+
+  h1 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+
+    &.expired {
+      background-color: #f44336;
+    }
+  }
+}
+
+// Optional animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

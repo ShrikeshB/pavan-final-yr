@@ -1,0 +1,75 @@
+.home-page {
+  font-family: "Arial", sans-serif;
+  background: #fff;
+  color: #000;
+}
+.home-page .hero {
+  background: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.home-page .hero h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.home-page .hero p {
+  margin: 1rem 0;
+  color: #444;
+}
+.home-page .hero .upload-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #e82254;
+  color: white;
+  border-radius: 9999px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.home-page .divider {
+  margin: 2rem auto;
+  width: 80%;
+  border: 0.5px solid #ccc;
+}
+.home-page .about {
+  text-align: center;
+  padding: 2rem;
+}
+.home-page .about h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.home-page .about p {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 0.9rem;
+  color: #444;
+}
+.home-page .footer {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+}
+.home-page .footer h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.home-page .footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+.home-page .footer ul li {
+  font-size: 0.9rem;
+}
+.home-page .footer .auth-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #e82254;
+  background: white;
+  color: #e82254;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}/*# sourceMappingURL=Home.css.map */

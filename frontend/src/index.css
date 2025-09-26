@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.heading1 {
+  font-weight: 1000;
+  font-size: 2em;
+}
